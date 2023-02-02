@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    
     text-align: center;
     padding-top: 120px;
     overflow-x: hidden;
@@ -38,4 +38,5 @@ li{
 
 .slogan{
     font-size: 5vw;
+    color: black;
 }

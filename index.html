@@ -7,6 +7,11 @@
     <title>和文からフローチャート</title>
 
     <link rel="stylesheet" href="style.css"/>
+    <style>
+        html{
+            overflow-y: hidden;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,21 +20,12 @@
     </header>
     
     <main>
-        <div style="margin-bottom:45vh">
-            <h2 class="slogan"><span style="color:crimson">文章</span>を書くように</h2>
-            <h2 class="slogan"><span style="color: crimson">流れ</span>を描く</h2>
-            <input style="background-color: black; color: white; border: none; padding: 10px; font-size: large;" type="button" value="今すぐ始める"/>
+        <div>
+            <h2 class="slogan"><span style="color:royalblue">文章</span>を書くように</h2>
+            <h2 class="slogan"><span style="color: royalblue">流れ</span>を描く</h2>
+            <input style="background-color: purple; color: white; border: none; padding: 10px; font-size: large;" type="button" onclick="location.href='editor.html'" value="エディターはこちらから"/>
         </div>
-
-        <div style="text-align: left;  font-size: 3vw; background-color: darkslateblue; left: 0; padding: 20px; color:white; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;width: 100vw;  margin: 0 calc(50% - 50vw); ">
-            <p style="margin-left: 10vw;">作図作業を</p>
-            <p style="margin-left: 10vw;">慣れ親しんだ日本語の文章で</p>
-        </div>
-
-        <h3>＜特徴＞</h3>
-        <li>簡単な構文</li>
-        <li>わかりやすいUI</li>
-        <li>文章からフローチャートを作成</li>
+        
     </main>
 
 </body>
