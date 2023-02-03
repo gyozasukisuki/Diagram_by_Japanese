@@ -12,6 +12,8 @@ editor.addEventListener("input", function(event){
         console.log(editor.children[i].textContent);
         if(editor.children[i].textContent.charAt(0) === '#' || editor.children[i].textContent.charAt(0) === '＃'){
             editor.children[i].style.color = "red";
+        }else{
+            editor.children[i].style.color = "white";
         }
     }
 })
