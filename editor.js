@@ -10,6 +10,9 @@ editor.addEventListener("input", function(event){
     
     for(let i=0; i<editor.children.length; i++){
         console.log(editor.children[i].textContent);
+        if(editor.children[i].textContent.charAt(0) === '#' || editor.children[i].textContent.charAt(0) === '＃'){
+            editor.children[i].style.color = "red";
+        }
     }
 })
 
